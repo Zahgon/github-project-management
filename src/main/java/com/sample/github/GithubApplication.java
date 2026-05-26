@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GithubApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GithubApplication.class, args);
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 }

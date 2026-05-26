@@ -12,9 +12,6 @@ public class UserFindService {
     private UserRepository userRepository;
 
     public User findById(long id) {
-        final User user = userRepository.findOne(id);
-        if (user == null) throw new RuntimeException();
-        return user;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
-
 }
